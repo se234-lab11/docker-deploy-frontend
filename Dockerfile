@@ -9,7 +9,7 @@ RUN npm install
 
 COPY . /app/
 
-ARG TARGET=deployed
+ARG TARGET=ng-deployed
 
 RUN npm run ${TARGET}
 

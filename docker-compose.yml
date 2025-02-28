@@ -5,4 +5,4 @@ services:
     image: nuanwan04/234-deploylab-frontend:latest
     pull_policy: always
     ports:
-      - "8086:80"
+      - "9999:80"
